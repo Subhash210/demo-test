@@ -1,0 +1,21 @@
+.header{
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.profiles{
+    display: flex;
+    gap: 20px;
+}
+
+.header a {
+    color: inherit; /* Ensures the icon color matches the text color */
+    text-decoration: none; /* Removes underline from links */
+}
+
+.profiles a:hover {
+    color: white; /* Changes color on hover for LinkedIn */
+}
